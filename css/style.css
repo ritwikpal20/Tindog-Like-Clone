@@ -1,0 +1,150 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    font-family: "Montserrat-Bold", sans-serif;
+    size: 3rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bolder;
+    size: 2rem;
+}
+
+.btn-dark:hover {
+    background-color: white;
+    border-color: #ff4b4b;
+    color: #212529;
+}
+
+/* Title */
+#title {
+    background-color: #ff4b4b;
+    max-height: 800px;
+    overflow: hidden;
+}
+.title-img {
+    width: 300px;
+    transform: rotate(25deg) translateX(50px);
+    position: relative;
+    z-index: 1;
+}
+@media (max-width: 992px) {
+    .title-img {
+        transform: rotate(25deg) translateX(50px);
+    }
+}
+
+/* Features */
+#features {
+    background-color: white;
+    padding: 4rem;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.feature {
+    padding: 1rem;
+}
+.feature-icon {
+    color: #ff7e7e;
+    padding: 1rem;
+}
+.feature-icon:hover {
+    color: #ff4b4b;
+}
+.feature p {
+    color: grey;
+    width: 60%;
+    margin: auto;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #ff4b4b;
+    padding: 4rem;
+}
+#press {
+    text-align: center;
+}
+#press img {
+    margin: 1rem;
+    max-width: 150px;
+}
+.carousel-inner {
+    margin: auto;
+    width: 70%;
+}
+.carousel-item {
+    text-align: center;
+}
+.carousel-item h2 {
+    font-weight: bolder;
+}
+.carousel-item img {
+    width: 20%;
+    height: 20%;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 2rem;
+    text-align: center;
+}
+#pricing .card,
+.card .card-header {
+    border-color: #ff7e7e;
+}
+.card-body {
+    color: #ff7e7e;
+}
+.card-header {
+    background-color: #ff7e7e;
+    color: white;
+}
+.card:hover .card-header {
+    background-color: #ff4b4b;
+    border-color: #ff4b4b;
+}
+.card:hover .card-body {
+    color: #ff4b4b;
+    transition: 0.5s;
+}
+.card .btn {
+    color: #ff7e7e;
+    border-color: #ff7e7e;
+}
+.card .btn:hover {
+    background-color: #ff4b4b;
+    transition: 0.5s;
+    color: white;
+}
+.card:hover {
+    transform: translate(-2px, 2px);
+    box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.151);
+    transition: 0.5s;
+}
+
+/* Call to action */
+#cta {
+    background-color: #ff4b4b;
+    padding: 2rem;
+    text-align: center;
+}
+#cta h3 {
+    padding: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Footer */
+#footer {
+    padding: 4rem;
+    text-align: center;
+}
